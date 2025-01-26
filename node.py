@@ -18,7 +18,7 @@ class GenerateMask:
     RETURN_TYPES = ("MASK",)
     FUNCTION = "process"
     OUTPUT_NODE = True
-    CATEGORY = "mask"
+    CATEGORY = "CUSTOM MASK"
 
     def process(self,image):
         data = np.array(image)
