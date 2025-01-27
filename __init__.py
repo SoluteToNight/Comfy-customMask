@@ -1,4 +1,4 @@
-from node import *
+from .node import *
 NODE_CLASS_MAPPINGS = {
     "GenarateMask": GenerateMask,
 }
